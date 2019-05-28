@@ -25,6 +25,28 @@ h1{
     letter-spacing: -1.5px;
 }
 
+.title-40{
+    font-size: 40px;
+    letter-spacing: -1.1px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+}
+
+.title-40 span{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.page-app-content h2{
+    margin-bottom: 36px;
+}
+
 .title-h2 span{
     display: block;
     color: #1085e4;
@@ -253,6 +275,18 @@ nav li a{
     padding-top: 15px;
 }
 
+.grid-text p span{
+    color: #192b59;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.grid-text-author{
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .grid h2{
     font-size: 40px;
     color:#192b59;
@@ -272,6 +306,7 @@ nav li a{
     letter-spacing: 2.5px;
     margin-bottom: 13px;
 }
+
 
 .grid-item{
     text-align: center;
@@ -328,6 +363,72 @@ nav li a{
 .grid-icon-6{
     background-image: url(../img/instruments/icon6.png);
     background-size: 100px 87px;
+}
+
+.settings-icon{
+    background-image: url(../img/setts.png);
+    display: block;
+    width: 114px;
+    height: 97px;
+    background-repeat: no-repeat;
+    background-position: -24px 0;
+}
+
+.page-software .title-h2, .page-analitics .title-h2, .page-edit .title-h2{
+    max-width: 557px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+
+.page-software-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-software-img{
+    background-image: url(../img/section2/programming.png);
+    width: 937px;
+    height: 995px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: -20px;
+    bottom: -39px;
+}
+
+.page-software-flex>div{
+    flex-basis: 55.5%;
+}
+
+.flex-edit>div{
+    flex-basis: 58%;
+}
+
+.page-software-list{
+    margin-top: 30px;
+    overflow-y: scroll;
+    height: 344px;
+    scrollbar-color: #1085e4 #f3f6ff;
+
+}
+
+.page-software-list::-webkit-scrollbar { width: 4px; height: 3px;}
+.page-software-list::-webkit-scrollbar-button {  background-color: #fff; }
+.page-software-list::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
+.page-software-list::-webkit-scrollbar-thumb { width: 1px; background-color: #1085e4; border-radius: 10px;}
+.page-software-list::-webkit-resizer {  width: 1px;  height: 0px;}
+
+.page-software-list dt{
+    color: #5a6789;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.page-software-list dd{
+    margin-left: 0;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .page-subscribe h2{
@@ -540,6 +641,54 @@ input:focus, button{
     outline: none;
 }
 
+.box-clients{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+
+.box-clients-item{
+    background-color: #fff;
+    padding: 21px 42px;
+    border-radius: 10px;
+    flex-basis: 31.5%;
+    box-sizing: border-box;
+    font-size: 14px;
+    box-shadow: 0px 9px 20px #f4f4f4;
+}
+
+.box-clients-item .name{
+    font-size: 22px;
+    color: #000958;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.box-clients-item .position{
+   color: #1085e4;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-top: 0;
+   letter-spacing: 3px;
+}
+
+.box-clients-item>p{
+    margin-bottom: 4px;
+    line-height: 1.7;
+}
+
+.box-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-info>div{
+    padding-left: 19px;
+}
+
 /* Page */
 
 .page-company{
@@ -553,14 +702,86 @@ header{
     background-repeat: no-repeat;
     padding: 53px 0 330px 0;
     position: relative;
+    background-position: center;
 }
 
 .page-stat, .page-screen{
     background-color: #edf6ff;
 }
 
+.page-software{
+    padding: 110px 0 146px 0;
+    position: relative;
+    overflow: hidden;
+}
+
 .page-stat{
     padding: 116px 0 96px 0;
+}
+
+.page-app-text{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c4d2dd;
+    margin-top: 26px;
+    letter-spacing: 3.5px;
+    margin-bottom: 20px;
+}
+
+.page-app-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.page-app-list li{
+    display: inline-block;
+    margin-left: -7px;
+}
+
+.page-app-list>li>a{
+    background-image: url(../img/section2/app.png);
+    display: block;
+    width: 185px;
+    height: 78px;
+    background-repeat: no-repeat;
+}
+
+.page-app-list>li>a.page-app-android{
+    background-position: 0 0;
+}
+
+.page-app-list>li>a.page-app-ios{
+    background-position: -185px 0;
+}
+
+.page-app-content{
+    width: 55%;
+}
+
+.page-app .video-app{
+    position: absolute;
+    top: -60px;
+    right: -170px;
+}
+
+.flex-analitics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-edit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-analitics>div{
+    flex-basis: 53%; 
+}
+
+.page-analitics-text, .page-edit-text{
+    margin-bottom: 50px;
 }
 
 .page-plan{
@@ -586,3 +807,51 @@ header{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2378cd', GradientType=1 );
 }
 
+.page-app{
+    padding: 69px 0 82px 0;
+}
+
+.page-app .wrap{
+    position: relative;
+}
+
+.page-analitics{
+    background-image: url(../img/section3/bg-analitics.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 117px 0 137px 0;
+}
+
+.page-edit{
+    background-image: url(../img/section4/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 118px 0 136px 0;
+}
+
+.page-clients{
+    position: relative;
+    margin-top: 120px;
+    padding: 43px 0 0 0;
+}
+
+.page-clients::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/clients/bg.svg);
+    background-repeat: no-repeat; 
+    top: 0;
+    z-index: -1;
+}
+
+.page-clients .title-40 span{
+    color: #85c8ff;
+}
+
+.page-clients .title-40{
+    color: #fff;
+}
