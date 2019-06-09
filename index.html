@@ -21,21 +21,23 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <header>
         <div class="wrap box-header">
             <a href="" class="logo"></a>
         <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Video</a></li>
-                <li><a href="">Screens</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Team</a></li>
+            <ul class="nav">
+                <li><a href="" class="nav-item">Home</a></li>
+                <li><a href="" class="nav-item">Features</a></li>
+                <li><a href="" class="nav-item">Video</a></li>
+                <li><a href="" class="nav-item">Screens</a></li>
+                <li><a href="" class="nav-item">Pricing</a></li>
+                <li><a href="" class="nav-item">Team</a></li>
                 <li><a href="" class="btn-free btn-primary ">Free Trial</a></li>
             </ul>
+            <button class="btn-menu" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M491.318 235.318H20.682C9.26 235.318 0 244.577 0 256s9.26 20.682 20.682 20.682h470.636c11.423 0 20.682-9.259 20.682-20.682 0-11.422-9.259-20.682-20.682-20.682zM491.318 78.439H20.682C9.26 78.439 0 87.699 0 99.121c0 11.422 9.26 20.682 20.682 20.682h470.636c11.423 0 20.682-9.26 20.682-20.682 0-11.422-9.259-20.682-20.682-20.682zM491.318 392.197H20.682C9.26 392.197 0 401.456 0 412.879s9.26 20.682 20.682 20.682h470.636c11.423 0 20.682-9.259 20.682-20.682s-9.259-20.682-20.682-20.682z"/></svg></button>
         </nav>
         </div>
         <div class="wrap">
@@ -49,10 +51,10 @@
     </header>
     <div class="page-company">
         <ul class="list-company">
-            <li class="list-company-item company-one"></li>
-            <li class="list-company-item company-two"></li>
-            <li class="list-company-item company-three"></li>
-            <li class="list-company-item company-four"></li>
+            <li class="list-company-item company-one"><span></span></li>
+            <li class="list-company-item company-two"><span></span></li>
+            <li class="list-company-item company-three"><span></span></li>
+            <li class="list-company-item company-four"><span></span></li>
         </ul>
     </div>
     <div class="page-grid">  
@@ -115,6 +117,7 @@
                 <input type="email" placeholder="Enter your email address" value="">
                 <button type="submit" class="btn-subscribe btn-primary">Subscribe</button>
             </div>
+            <button type="submit"  class="mobile-subscribe btn-primary">Subscribe</button>
             </div>
             <img src="img/section/robot.png" alt="Robot">
         </div>
@@ -125,7 +128,7 @@
         <div>
         <div class="settings-icon"></div>
         <h2 class="title-h2">Grab Your&#8194;Software With Amazing&#8194;Features</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#8195; Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
         <dl class="page-software-list">
             <dt>01. Clean Design</dt>
             <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
@@ -164,7 +167,7 @@
         <div class="wrap">
             <p class="intro">Intro</p>
             <div class="page-app-content">
-                <h2 class="title-h2">Meet With Future&nbsp;Landingpage</h2>
+                <h2 class="title-h2">Meet With Future Landingpage</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
                 <p class="page-app-text">Avaible Now</p>
                 <ul class="page-app-list">
@@ -190,7 +193,7 @@
             <div class="wrap flex-edit">
                 <div>
                     <div class="settings-icon"></div>
-                    <h2 class="title-h2">Easy To Edit & <br> Very Easily Control</h2>
+                    <h2 class="title-h2">Easy To Edit & Very Easily Control</h2>
                     <p class="page-edit-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
                     <a href="" class="btn-learn btn-primary">Learn More</a>
                 </div>
@@ -291,7 +294,7 @@
                 <div class="box-team-item">
                     <img class="avatar" src="img/specialists/founder.png" alt="founder">
                     <p class="position">founder</p>
-                    <p class="name">Ricardo T. Obrien</p>
+                    <p class="name name-ricardo">Ricardo T. Obrien</p>
                     <button class="btn-team btn-more btn-ricardo" type="button"><span></span></button>
                     <ul class="social-team social-ricardo" style="display: none">
                     	<li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
@@ -303,7 +306,7 @@
                 <div class="box-team-item">
                     <img class="avatar" src="img/specialists/ceo.png" alt="ceo">
                     <p class="position">ceo</p>
-                    <p class="name">Alberto Del Rio</p>
+                    <p class="name name-alberto">Alberto Del Rio</p>
                     <button class="btn-team btn-more btn-alberto" type="button"><span></span></button>
                     <ul class="social-team social-alberto" style="display: none">
                     	<li><a href="" target="_blank" class="btn-team btn-fb"><span></span></a></li>
@@ -352,6 +355,18 @@
                 <li><a class="social-item social-foursquare" href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><path d="M253.428 8.709C248.11.773 237.729-.107 229.026.01c-52.447.236-104.914.1-157.385.059C68.63.162 65.624.32 62.657.9c-9.628 1.6-17.55 9.688-19.241 19.238-1.545 9.416-.655 19.025-.773 28.52-.02 77.041.059 154.084-.059 231.125.217 4.752.389 9.938 3.336 13.943 4.645 6.346 14.056 7.93 20.924 4.516 4.139-2.254 7.203-5.924 10.287-9.377 22.539-26.607 45.973-52.461 68.467-79.113 2.484-2.818 5.396-5.904 9.516-5.672 16.225-.832 32.49.545 48.736-.291 5.516-.289 11.262-1.865 15.262-5.879 5.451-5.357 7.144-13.141 8.871-20.305 9.219-44.688 17.568-89.563 26.822-134.25 2.175-11.277 5.398-24.301-1.377-34.646zm-40.471 72.382c-1.339 4.432-7.105 4.133-10.986 4.447-19.508.389-39.02-.469-58.508.094-5.959-.232-12.404 3.512-12.773 9.977-1.264 8.059-.752 20.496 9.358 22.268 19.099 2.135 38.454-.703 57.573 1.146 6.366.191 6.484 7.705 5.49 12.344-2.189 11.232-3.857 22.646-7.139 33.643-.836 3.641-4.295 5.551-7.842 5.58-16.113 1.348-32.324-.557-48.432.59-6.604.094-10.539 6.018-14.445 10.465-16.246 19.971-32.59 39.848-49.362 59.379-.659-62.832.06-125.689-.368-188.541.137-4.699-.1-9.609 1.627-14.076 2.471-5.201 8.971-5.068 13.865-5.34 38.258.041 76.535.139 114.797-.039 6.346.195 13.022-.859 14.676 4.793 2.19 7.481-4.557 33.423-7.531 43.27z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#fff"/></svg></a></li>
             </div>
     </footer>
+        <div class="modal">
+            <button class="btn-close" type="button"><span>&times;</span></button>
+            <ul class="nav-modal">
+                <li><a href="" class="nav-item">Home</a></li>
+                <li><a href="" class="nav-item">Features</a></li>
+                <li><a href="" class="nav-item">Video</a></li>
+                <li><a href="" class="nav-item">Screens</a></li>
+                <li><a href="" class="nav-item">Pricing</a></li>
+                <li><a href="" class="nav-item">Team</a></li>
+                <li><a href="" class="btn-primary btn-free">Free Trial</a></li>
+            </ul>
+        </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>
     $(document).ready(function(){
@@ -359,17 +374,20 @@
         $(".btn-ricardo").hide();
         $(".social-ricardo").fadeIn();
         });
-    });
-    $(document).ready(function(){
         $(".btn-alberto").click(function(){
         $(".btn-alberto").hide();
         $(".social-alberto").fadeIn();
         });
-    });    $(document).ready(function(){
         $(".btn-thomas").click(function(){
         $(".btn-thomas").hide();
         $(".social-thomas").fadeIn();
         });
+        $(".btn-menu").click(function(){
+           $(".modal").show(); 
+        })
+        $(".btn-close").click(function(){
+           $(".modal").hide(); 
+        })      
     });
     </script>
 </body>
